@@ -1,0 +1,60 @@
+body {
+	background-image: url("./Assets/Images/Background.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #2e3379
+}
+
+body>div.container {
+	margin-top: 20px;
+}
+
+nav.navbar a.navbar-brand {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+main,
+aside {
+	background: #fff;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	/* margin: 20px 15px; */
+}
+
+main section img,
+aside section img {
+	max-width: 100%
+}
+
+footer {
+	border-top: 6px solid;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+	main section img {
+		max-width: 50%;
+	}
+	/* alternate image position */
+	section img:nth-child(even) {
+		float: right;
+		margin-left: 25px;
+	}
+	section img:nth-child(odd) {
+		float: left;
+		margin-right: 25px;
+	}
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+	main section img {
+		max-width: 30%;
+	}
+}
