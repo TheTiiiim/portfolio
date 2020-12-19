@@ -26,6 +26,10 @@ main section img {
 	max-width: 100%
 }
 
+div.gallery img {
+	width: 100%
+}
+
 footer {
 	border-top: 6px solid;
 }
@@ -34,16 +38,8 @@ footer {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-	main section img {
+	main section img.float-md-left {
 		max-width: 50%;
-	}
-	/* alternate image position */
-	main section img:nth-child(even) {
-		float: right;
-		margin-left: 25px;
-	}
-	main section img:nth-child(odd) {
-		float: left;
 		margin-right: 25px;
 	}
 }
@@ -52,7 +48,7 @@ footer {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-	main section img {
+	main section img.float-md-left {
 		max-width: 30%;
 	}
 }
