@@ -37,8 +37,17 @@ footer {
 	text-align: center;
 }
 
-.footLinks a:not(:first-child)::before {
-	content: " · ";
+ul.footLinks {
+	margin: 0;
+	padding: 0;
+}
+
+ul.footLinks li {
+	display: inline;
+}
+
+ul.footLinks li+li:before {
+	content: "· ";
 }
 
 .button {
