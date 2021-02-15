@@ -40,3 +40,12 @@ footer {
 .footLinks a:not(:first-child)::before {
 	content: " · ";
 }
+
+.button {
+	padding: .5rem 1rem;
+	border-radius: .25rem;
+}
+
+.button:hover {
+	text-decoration: none;
+}

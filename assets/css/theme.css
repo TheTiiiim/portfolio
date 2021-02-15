@@ -54,3 +54,25 @@ footer a,
 header a {
 	color: #a7a7a8;
 }
+
+.button {
+	color: #F3F4F7;
+	background-color: #36393B;
+}
+
+.button:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: #a7a7a8;
+	background-color: #797e81;
+}
+
+.button:focus {
+	color: #F3F4F7;
+	background-color: #36393B;
+}
+
+.button:active {
+	color: transparent;
+	background-color: black;
+}
