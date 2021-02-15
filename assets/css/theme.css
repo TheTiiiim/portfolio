@@ -35,6 +35,10 @@ main.jumbotron h1 {
 	background-color: #F3F4F7aa;
 }
 
+main hr {
+	border-color: #118AB2
+}
+
 footer,
 header {
 	border-color: #118AB2;
@@ -63,13 +67,8 @@ header a {
 .button:hover {
 	cursor: pointer;
 	text-decoration: none;
-	color: #a7a7a8;
-	background-color: #797e81;
-}
-
-.button:focus {
-	color: #F3F4F7;
-	background-color: #36393B;
+	color: #36393B;
+	background-color: #118AB2;
 }
 
 .button:active {
